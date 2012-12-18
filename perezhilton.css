@@ -36,6 +36,14 @@ div.header input[type="text"] {
   box-shadow: 0 1px white;
   padding-left: 7px;
 }
+div.header input[type="image"] {
+  position: absolute;
+  top: 27px;
+  left: 176px;
+  background-color: #FAF7F7;
+  padding: 10px;
+  border-left: 1px solid #CFCACA;
+}
 
 .catagoriesbar {
   position: relative;
@@ -111,6 +119,7 @@ div.newscolumns h2 {
   font-family: "helvetica neue",arial,sans-serif;
   color: #585353;
   font-weight: bold;
+  text-shadow: white 0px 1px 0px;
 }
 div.newscolumns ul.left {
   float: left;
@@ -169,6 +178,7 @@ div.newscolumns ul.right li a {
   font-size: 11px;
   display: inline;
   padding-right: 15px;
+  font-family: "helvetica neue",arial,sans-serif;
 }
 .footer p a {
   text-decoration: none;
